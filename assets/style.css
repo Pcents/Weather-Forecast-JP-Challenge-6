@@ -1,0 +1,49 @@
+* {
+    background-image: url(./lightningstrike.png);
+}
+
+.weather-days {
+    border: 5px solid coral;
+    padding: 10px;
+}
+
+.header {
+    color: azure;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(0, 8, 255), rgb(0, 255, 229));
+    padding: 30px;
+
+}
+
+
+
+.search-cont {
+    border: 5px solid coral;
+    color: aqua;
+    padding: 10px;
+    flex-basis: 30%;
+}
+
+.form-control {
+    color: aqua;
+}
+
+
+.big-weather-card {
+    color: aqua;
+    border: 5px solid greenyellow;
+    padding: 10 px;
+}
+
+.weather-days-cont {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+button {
+    text-decoration-color: aquamarine;
+}
