@@ -1,10 +1,13 @@
-* {
-    background-image: url(./lightningstrike.png);
+body {
+    background-image: url(./img/lightningstrike.png);
+    margin: 0;
+    background-size: cover;
 }
 
 .weather-days {
     border: 5px solid coral;
     padding: 10px;
+    color: aqua;
 }
 
 .header {
@@ -31,11 +34,6 @@
 }
 
 
-.big-weather-card {
-    color: aqua;
-    border: 5px solid greenyellow;
-    padding: 10 px;
-}
 
 .weather-days-cont {
     display: flex;
@@ -46,4 +44,28 @@
 
 button {
     text-decoration-color: aquamarine;
+}
+
+.green {
+    background-color: green
+}
+
+.yellow {
+    background-color: yellow
+}
+
+.red {
+    background-color: red
+}
+
+.purple {
+    background-color: purple
+}
+
+.blue {
+    background-color: blue;
+}
+
+.add-uv-color {
+    color: white;
 }

@@ -14,40 +14,24 @@
 <body>
     <header class="header">Weather Dashboard</header>
     <div class="container row">
-
         <div class=" search-cont">
             <!-- need to make the sidebar take up the whole side? -->
-
             <form class="d-flex " role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <input class="form-control me-2" type="text" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success searchBtn" type="submit">Search</button>
             </form>
-            <!--will need to create.element buttons for the search history   -->
             <div class="justify-content-start col-sm-3 old-search">Previous Search history</div>
         </div>
-
-        <div class="col-6 big-weather-card">.col-6<br>this is where the weather data will go
-        </div>
-        <!-- need to figure this out
-         -->
-        <div class="weather-days-cont">
-            <div class="weather-days">these are containers for future weather</div>
-            <div class="weather-days">these are containers for future weather</div>
-            <div class="weather-days">these are containers for future weather</div>
-            <div class="weather-days">these are containers for future weather</div>
-            <div class="weather-days">these are containers for future weather</div>
-        </div>
+        <div class="col-6 big-weather-card" id="big-day"></div>
+        <div class="weather-days-cont row" id="little-days"></div>
     </div>
 
-
-
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
-        </script>
-    <script src="./assets/scripts.js"></script>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="./assets/script2.js"></script>
 
 </html>
